@@ -1,0 +1,20 @@
+# Maven
+app/policy-service/target/
+*.class
+*.jar
+*.war
+
+# Kind config is fine to commit but ignore local overrides
+*.local.yaml
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
